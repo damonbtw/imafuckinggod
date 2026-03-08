@@ -1,0 +1,7 @@
+local _a = game.PlaceId
+
+if _a == 2788229376 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/damonbtw/ripper/refs/heads/main/ripper.lua"))()
+else
+    notify("Damon hates you", "Wrong game.", 5)
+end
